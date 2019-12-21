@@ -18,11 +18,12 @@ let business = {
 
 let businesses = [business, business, business, business, business, business];
 
+function searchYelp(term, location, sortBy) {
+  console.log(`Searching for ${term} in ${location}, sorting by ${sortBy}`);
+}
+
 function App() {
   
-  function searchYelp(term, location, sortBy) {
-    console.log(`Searching for ${term} in ${location}, sorting by ${sortBy}.`);
-  }
   return (
     <div className="App">
       <h1>ravenous</h1>
