@@ -1,4 +1,4 @@
-const apiKey = "bMfW0wolnnVP0qVJdVfi1xdWFLGViiLFs86a1UtuPxm2CnuYyQPhdoShs8MUjymsB6myiIw79N4BeBl21Fh587eHT-hGOaXH_bSlyMH9xIQ8MoyiuibIHXMdkwYAXnYx";
+import apiKey from "./secretkeys";
 
 export const Yelp =  {
     search(term, location, sortBy) {
